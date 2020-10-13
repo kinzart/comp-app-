@@ -4,7 +4,7 @@ import localImg from '../images/Local.svg';
 import { FiPlus } from 'react-icons/fi';
 import '../styles/pages/orfMap.css';
 import { Map, TileLayer } from 'react-leaflet';
-
+import 'leaflet/dist/leaflet.css';
 
 function OrphanagesMap() {
     return (
@@ -23,15 +23,15 @@ function OrphanagesMap() {
             </aside>
 
             <Map 
-                center={[-27.4212683,-48.4287712]}
+                center={[-27.7630692,-48.520745]}
                 zoom={15}
-                style={{ width: '100%', height: '100%'}}
+                style={{ width: '100%', height: '100%' }}
                 >
                 <TileLayer url="https://a.tile.openstreetmap.org/{z}/{x}/{y}.png" />
                 
             </Map> 
 
-            <Link to="" className="create-orph">
+            <Link to="/" className="create-orph">
                 <FiPlus size={32} color="#FFF" />
             </Link>
         </div>
