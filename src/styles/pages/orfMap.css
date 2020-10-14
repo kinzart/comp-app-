@@ -45,6 +45,7 @@
 #page-map .leafLet-container {
     z-index: 5;
 }
+
 #page-map .create-orph {
     position: absolute;
     right: 40px;
@@ -67,4 +68,16 @@
 #page-map .create-orph:hover {
     background: #17d6eb;
     
+}
+
+#page-map .map-popup .leaflet-popup-content-wrapper {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0.5;
+}
+
+#page-map .map-popup .leaflet-popup-content {
+    color: #0089a5;
+    font-size: 20px;
+    font-weight: bold;
 }
