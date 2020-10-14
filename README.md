@@ -12,7 +12,7 @@ LEAFLET para mapa
 
 yarn add @types/react-leaflet -D
 
-2342
+
 
 
 npx browserslist --update-db
