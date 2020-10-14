@@ -20,3 +20,12 @@ npx browserslist --update-db
 
 
 
+
+
+DAY 3
+
+
+
+
+
+
