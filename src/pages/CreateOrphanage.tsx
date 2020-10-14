@@ -1,9 +1,6 @@
 import React from "react";
 import { Map, Marker, TileLayer } from 'react-leaflet';
-
-
 import { FiPlus } from "react-icons/fi";
-
 
 import '../styles/pages/create-orphanage.css';
 import Sidebar from "../components/Sidebar";
@@ -29,7 +26,7 @@ export default function CreateOrphanage() {
               zoom={15}
             >
               <TileLayer 
-                url ="https://a.tile.openstreetmap.org/${z}/${x}/${y}.png"
+                url="https://a.tile.openstreetmap.org/{z}/{x}/{y}.png" 
               />
 
               <Marker interactive={false} icon={mapIcon} position={[-27.2092052,-49.6401092]} />
