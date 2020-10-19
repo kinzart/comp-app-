@@ -25,6 +25,19 @@ npx browserslist --update-db
 DAY 3
 
 
+yarn add axios
+
+
+mdkir src/services
+
+touch src/services api.ts
+
+
+
+
+
+
+
 
 
 
